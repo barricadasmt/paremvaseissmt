@@ -80,12 +80,12 @@
     background-color: #555;
 }
 
+/* Adjust the map for the side panel */
 #map {
-    margin-left: 250px; /* Space for the side panel */
-    height: 100%;
+    margin-left: 250px;
+    height: 100vh; /* Use full viewport height */
 }
 
-/* Media queries for mobile responsiveness */
 @media (max-width: 768px) {
     #side-panel {
         width: 100%; /* Full width on mobile */
@@ -95,6 +95,6 @@
     
     #map {
         margin-left: 0; /* No margin on mobile */
-        height: calc(100vh - 300px); /* Use viewport height */
+        height: calc(100vh - 300px); /* Adjust height for the map */
     }
 }
