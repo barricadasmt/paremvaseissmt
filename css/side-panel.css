@@ -87,15 +87,14 @@
 }
 
 @media (max-width: 768px) {
-    #side-panel {
-        width: 100%; /* Full width on mobile */
-        height: 40%); /* Auto height */
-        position: relative; /* Allows stacking */
-    }
-    
-    #map {
-        width: 100%
-        margin-left: 0; /* No margin on mobile */
-        height: 60%;  /* Adjust height for the map */
-    }
+            #map {
+                height: 60vh; /* 60% of the viewport height for mobile */
+                width: 100vw; /* Full width */
+            }
+
+            #side-panel {
+                height: 40vh; /* 40% of the viewport height for mobile */
+                width: 100%; /* Full width on mobile */
+                position: relative; /* Allows stacking below the map */
+            }
 }
