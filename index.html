@@ -21,47 +21,51 @@
 
     <title>Blacklist Εταιρειών</title>
 </head>
+
 <body>
-    <!-- Left Side Panel -->
-    <div id="side-panel">
-        <div id="logo">
-            <img src="images/logo.png" alt="Logo" width="250" />
-            <div class="logo-text-block">
-                <p>ενωτική</p>
-                <p>αγωνιστική</p>
-                <p>παρέμβαση</p>
-                <p>στο σωματείο</p>
-                <p>μισθωτών τεχνικών</p>
+    <div class="container">
+        <!-- Map -->
+        <div id="map"></div>
+        
+        <!-- Side Panel -->
+        <div id="side-panel">
+            <div id="logo">
+                <img src="images/logo.png" alt="Logo" width="250" />
+                <div class="logo-text-block">
+                    <p>ενωτική</p>
+                    <p>αγωνιστική</p>
+                    <p>παρέμβαση</p>
+                    <p>στο σωματείο</p>
+                    <p>μισθωτών τεχνικών</p>
+                </div>
+            </div>
+            <div id="abstract">
+                <h2>Χάρτης παρεμβάσεων ΣΜΤ</h2>
+                <p>Εδώ μπορείς να βρεις περιστατικά εργοδοτικής αυθαιρεσίας σε εταιρείες του κλάδου...</p>
+                <p>Σε απέλυσαν; Μήπως δουλεύεις περισσότερες ώρες από όσες πληρώνεσαι;</p>
+                <p><strong>Απευθύνσου στο Σωματείο Μισθωτών Τεχνικών!</strong></p>
+                <button id="formButton" class="popup-btn">Κάνε εδώ την καταγγελία σου!</button>
+                <p><strong>Το λέμε καθαρά: η ζωή θα νικήσει, οι εργοδότες θα πληρώσουν!</strong></p>
+            </div>
+            <div id="social-buttons">
+                <a href="https://www.facebook.com/share/pQu59s6kKo1Ye9QJ/" target="_blank">
+                    <button class="social-btn" id="facebook-btn">
+                      <img src="images/facebook-icon.png" alt="Facebook" width="30"> 
+                    </button>
+                </a>
+                <a href="https://barricada-smt.blogspot.com/" target="_blank">
+                    <button class="social-btn" id="blogspot-btn">
+                       <img src="images/blogspot-icon.png" alt="Blogspot" width="30"> 
+                    </button>
+                </a>
+                <a href="https://somt.gr/" target="_blank">
+                    <button class="social-btn" id="site-btn">
+                        <img src="images/site-icon.png" alt="Website" width="30">
+                    </button>
+                </a>
             </div>
         </div>
-        <div id="abstract">
-            <h2>Χάρτης παρεμβάσεων ΣΜΤ</h2>
-            <p>Εδώ μπορείς να βρεις περιστατικά εργοδοτικής αυθαιρεσίας σε εταιρείες του κλάδου...</p>
-            <p>Σε απέλυσαν; Μήπως δουλεύεις περισσότερες ώρες από όσες πληρώνεσαι;</p>
-            <p><strong>Απευθύνσου στο Σωματείο Μισθωτών Τεχνικών!</strong></p>
-            <button id="formButton" class="popup-btn">Κάνε εδώ την καταγγελία σου!</button>
-            <p><strong>Το λέμε καθαρά: η ζωή θα νικήσει, οι εργοδότες θα πληρώσουν!</strong></p>
-        </div>
-        <div id="social-buttons">
-            <a href="https://www.facebook.com/share/pQu59s6kKo1Ye9QJ/" target="_blank">
-                <button class="social-btn" id="facebook-btn">
-                  <img src="images/facebook-icon.png" alt="Facebook" width="30"> 
-                </button>
-            </a>
-            <a href="https://barricada-smt.blogspot.com/?fbclid=IwZXh0bgNhZW0CMTEAAR3KqOGJjh1lOww7JMO0HS_a9dTsLSnTFvTOEPhGzjdxHToL8HgNQx1qJQE_aem_vchz1M7x6F1BjSoJTO4xpQ&m=1" target="_blank">
-                <button class="social-btn" id="blogspot-btn">
-                   <img src="images/blogspot-icon.png" alt="Blogspot" width="30"> 
-                </button>
-            </a>
-            <a href="https://somt.gr/" target="_blank">
-                <button class="social-btn" id="site-btn">
-                    <img src="images/site-icon.png" alt="Website" width="30">
-                </button>
-            </a>
-        </div>
     </div>
-    <!-- Map -->
-    <div id="map"></div>
 
     <!-- Scripts for map functionality -->
     <script src="js/qgis2web_expressions.js"></script>
