@@ -53,7 +53,7 @@ html, body {
 
 .logo-text-block {
     font-size: 15px;
-    line-height: 1.2;
+    line-height: 0.5;
     color: #000;
     text-align: left;
     margin-bottom: 20px;
@@ -63,7 +63,7 @@ html, body {
     margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    line-height: 1;
+    line-height: 1.2;
      margin-bottom: 10px;
 }
 
