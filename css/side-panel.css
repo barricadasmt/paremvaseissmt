@@ -80,20 +80,21 @@
     background-color: #555;
 }
 
-/* Adjust the map for the side panel */
 #map {
-    margin-left: 250px;
+    margin-left: 250px; /* Space for the side panel */
     height: 100%;
 }
 
+/* Media queries for mobile responsiveness */
 @media (max-width: 768px) {
     #side-panel {
-        width: 100%;
-        height: auto; /* Adjust side panel height based on content */
-        position: relative;
+        width: 100%; /* Full width on mobile */
+        height: auto; /* Auto height */
+        position: relative; /* Allows stacking */
     }
+    
     #map {
-        margin-left: 0;
-        height: calc(100vh - 300px); /* Adjust height according to your needs */
+        margin-left: 0; /* No margin on mobile */
+        height: calc(100vh - 300px); /* Use viewport height */
     }
 }
