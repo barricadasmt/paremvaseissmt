@@ -1,0 +1,99 @@
+/* Style for the left side panel */
+#side-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #f4f4f4;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    z-index: 1000;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+/* Style for the logo section */
+#logo {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.logo-text-block {
+    font-size: 15px;
+    line-height: 0.5;
+    color: #000;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+/* Style for the abstract */
+#abstract {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    flex-grow: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Social buttons container */
+#social-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+/* Individual button styles */
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.social-btn:hover {
+    background-color: #555;
+}
+
+.popup-btn {
+    background-color: #47051d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.popup-btn:hover {
+    background-color: #555;
+}
+
+/* Adjust the map for the side panel */
+#map {
+    margin-left: 250px;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    #side-panel {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    #map {
+        margin-left: 0;
+        height: calc(100% - 300px);
+    }
+}
