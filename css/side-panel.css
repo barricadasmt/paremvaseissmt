@@ -22,7 +22,7 @@ html, body {
     height: 100vh;
     background-color: #f4f4f4;
     overflow-y: auto;
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
     font-family: 'Alegreya Sans SC', sans-serif;
 }
