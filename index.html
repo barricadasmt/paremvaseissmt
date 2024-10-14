@@ -19,23 +19,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        html, body, #map {
-            width: 100%;
-            height: 100%;
-            padding: 0;
+
+        html, body {
             margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Prevent scrolling */
+            display: flex;
+            flex-direction: column;
+        
         }
-        @media (max-width: 768px) {
-            #side-panel {
-                width: 100%;
-                height: auto;
-                position: relative;
-            }
-            #map {
-                margin-left: 0;
-                height: calc(100% - 300px); /* Adjust map height for mobile */
-            }
-        }
+
+        
     </style>
     <title>Blacklist Εταιρειών</title>
 </head>
