@@ -89,11 +89,11 @@
 @media (max-width: 768px) {
     #side-panel {
         width: 100%;
-        height: auto;
+        height: auto; /* Adjust side panel height based on content */
         position: relative;
     }
-     #map {
+    #map {
         margin-left: 0;
-        height: calc(100vh - 300px); /* Use viewport height for the map */
+        height: calc(100vh - 300px); /* Adjust height according to your needs */
     }
 }
