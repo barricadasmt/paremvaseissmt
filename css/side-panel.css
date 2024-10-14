@@ -92,8 +92,8 @@
         height: auto;
         position: relative;
     }
-    #map {
+     #map {
         margin-left: 0;
-        height: calc(100% - 300px);
+        height: calc(100vh - 300px); /* Use viewport height for the map */
     }
 }
