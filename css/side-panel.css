@@ -9,12 +9,12 @@ html, body {
     display: flex;
     width: 100%;
     height: 100%;
-    flex-direction: row; /* Flex direction row for desktop/laptop */
+    flex-direction: row; /* Row layout for desktop */
 }
 
 /* Desktop/Laptop View */
 #side-panel {
-    width: 30%; /* Side panel takes up 30% of the screen width */
+    width: 30%; /* Side panel on the left */
     height: 100vh;
     background-color: #f4f4f4;
     overflow-y: auto;
@@ -24,7 +24,7 @@ html, body {
 }
 
 #map {
-    width: 70%; /* Map takes up 70% of the screen width */
+    width: 70%; /* Map takes up 70% */
     height: 100vh; /* Full height */
 }
 
