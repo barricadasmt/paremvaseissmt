@@ -23,32 +23,10 @@ html, body {
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-#map {
-    width: 75%; /* Map takes up 70% */
-    height: 100vh; /* Full height */
-}
-
-/* Mobile View */
-@media only screen and(max-width: 600px) {
-    .container {
-        flex-direction: column; /* Stack the map and side panel vertically */
-    }
-        #side-panel {
-        width: 100%; /* Full width */
-        height: 40vh; /* 40% of the viewport height */
-        box-shadow: none;
-    }
-    #map {
-        width: 100%; /* Full width */
-        height: 60vh; /* 60% of the viewport height */
-    }
-    
-
-}
-
-/* Additional Styling for Side Panel Content */
+/* Desktop/Laptop: Specific Margins and Layout */
 #logo {
     text-align: center;
+    margin-bottom: 20px; /* Adjust this margin for desktop */
 }
 
 .logo-text-block {
@@ -56,41 +34,61 @@ html, body {
     line-height: 0.5;
     color: #000;
     text-align: left;
-    margin-bottom: 60px;
+    margin-bottom: 60px; /* Adjusted for desktop */
 }
 
 #abstract {
-    margin-top: 30px;
+    margin-top: 30px; /* Adjusted for desktop */
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     line-height: 1.3;
-    margin-bottom: 60px;
+    margin-bottom: 60px; /* Adjusted for desktop */
 }
 
 #social-buttons {
     display: flex;
     justify-content: space-around;
-    margin-top: 60px;
+    margin-top: 60px; /* Adjusted for desktop */
 }
 
-.social-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    background-color: #f4f4f4;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+#map {
+    width: 75%; /* Map takes up 75% */
+    height: 100vh; /* Full height */
 }
 
-.popup-btn {
-    background-color: #47051d;
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 20px;
+/* Mobile View */
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column; /* Stack the map and side panel vertically */
+    }
+    #side-panel {
+        width: 100%; /* Full width */
+        height: 40vh; /* 40% of the viewport height */
+        box-shadow: none;
+        padding: 10px; /* Adjust padding for mobile */
+    }
+    #map {
+        width: 100%; /* Full width */
+        height: 60vh; /* 60% of the viewport height */
+    }
+
+    /* Mobile: Specific Margins and Layout */
+    #logo {
+        margin-bottom: 10px; /* Adjust margin for mobile */
+    }
+
+    .logo-text-block {
+        font-size: 10px;
+        margin-bottom: 30px; /* Reduced for mobile */
+    }
+
+    #abstract {
+        margin-top: 15px; /* Reduced margin for mobile */
+        font-size: 12px; /* Slightly smaller for mobile */
+        margin-bottom: 30px; /* Reduced margin for mobile */
+    }
+
+    #social-buttons {
+        margin-top: 30px; /* Reduced margin for mobile */
+    }
 }
