@@ -29,21 +29,21 @@ html, body {
 }
 
 /* Mobile View */
-@media only screen and (max-width: 1024px) and (min-width: 600px) {
-  .side-pane {
-    padding: 15px; /* Less padding on tablets */
-    margin: 8px;
-    font-size: 14px;
-  }
-}
+@media only screen and(max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack the map and side panel vertically */
+    }
+        #side-panel {
+        width: 100%; /* Full width */
+        height: 40vh; /* 40% of the viewport height */
+        box-shadow: none;
+    }
+    #map {
+        width: 100%; /* Full width */
+        height: 60vh; /* 60% of the viewport height */
+    }
+    
 
-/* Mobile screens (below 600px) */
-@media only screen and (max-width: 600px) {
-  .side-pane {
-    padding: 10px; /* Reduce padding further for mobile */
-    margin: 5px;
-    font-size: 12px; /* Smaller font size for mobile */
-  }
 }
 
 /* Additional Styling for Side Panel Content */
