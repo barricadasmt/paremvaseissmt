@@ -55,7 +55,37 @@ html, body {
     width: 75%; /* Map takes up 75% */
     height: 100vh; /* Full height */
 }
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #f4f4f4;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
+/* Hover effect */
+.social-btn:hover {
+    background-color: #555;
+}
+
+.popup-btn {
+    background-color: #47051d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.popup-btn:hover {
+    background-color: #555;
+}
 /* Mobile View */
 @media only screen and (max-width: 600px) {
     .container {
