@@ -572,7 +572,7 @@ var json__1 = {
             "properties": {
                 "fid": "42",
                 "Name": "Phoenix Engineering",
-                "info_description": "Μαζικές απολύσεις και κλίμα τρομοκρατίας" 
+                "info_description": "Μαζικές απολύσεις και κλίμα τρομοκρατίας" ,
                 "info_link": "https://somt.gr/?s=phoenix",
                 "info_etos": "2025",
                 "ekvasi": ""
@@ -584,6 +584,7 @@ var json__1 = {
         }
     ]
 }
+
 
 
 
