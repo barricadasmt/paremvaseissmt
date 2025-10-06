@@ -525,8 +525,7 @@ var json__1 = {
                 "type": "Point",
                 "coordinates": [23.717599091749918, 37.954405187287108]
             }
-        },
-			{
+        }, {
             "type": "Feature",
             "properties": {
                 "fid": "39",
@@ -540,8 +539,7 @@ var json__1 = {
                 "type": "Point",
                 "coordinates": [23.725864925666492, 37.95058782173665]
             }
-        },
-			{
+        }, {
             "type": "Feature",
             "properties": {
                 "fid": "40",
@@ -555,8 +553,7 @@ var json__1 = {
                 "type": "Point",
                 "coordinates": [23.737179728286335, 37.99706421314411]
             }
-        },
-			{
+        }, {
             "type": "Feature",
             "properties": {
                 "fid": "41",
@@ -570,8 +567,7 @@ var json__1 = {
                 "type": "Point",
                 "coordinates": [23.682128561728028, 38.07168730439168]
             }
-        },
-			{
+        }, {
             "type": "Feature",
             "properties": {
                 "fid": "42",
@@ -588,5 +584,6 @@ var json__1 = {
         }
     ]
 }
+
 
 
